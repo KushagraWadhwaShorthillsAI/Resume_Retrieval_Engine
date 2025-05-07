@@ -116,10 +116,7 @@ def evaluate_expression(expr, text, quoted_phrases=None):
     
     return False
 
-
-# Display formatted JSON
 def display_json(data):
-    # Remove MongoDB ObjectId from display
     if "_id" in data:
         del data["_id"]
     
