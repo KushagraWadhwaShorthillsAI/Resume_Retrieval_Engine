@@ -128,7 +128,7 @@ def display_json(data):
 # Main Streamlit App
 def main():
     st.set_page_config(
-        page_title="Resume Search Pro", 
+        page_title="HR Bot Resume Search", 
         page_icon="📄", 
         layout="wide",
         initial_sidebar_state="expanded"
@@ -223,9 +223,9 @@ def main():
             st.markdown("""
             ### 💡 Example Queries
             - `Python AND (Django OR Flask)`
-            - `JavaScript AND React NOT jQuery`
+            - `JavaScript AND React`
             - `"Machine Learning" AND (Python OR R)`
-            - `AWS AND "5 years experience"`
+            - `AWS OR Azure`
             """)
         return
 
