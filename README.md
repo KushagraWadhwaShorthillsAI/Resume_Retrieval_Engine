@@ -1,8 +1,4 @@
-Here’s a complete and professional **README.md** for your **Boolean Retrieval Engine for Resume Search**, describing how it works, how to run it, and the logic you've implemented:
-
----
-
-# 🔎 Resume Search Pro – Boolean Retrieval Engine
+# 🔎 Resume Retrieval Engine 
 
 A powerful, Streamlit-based HR tool that enables intelligent resume search using advanced **Boolean logic** and custom **text normalization** techniques. Designed for recruiters and HR teams to efficiently filter candidate resumes stored in MongoDB using keywords, multi-word phrases, and logical expressions.
 
@@ -10,7 +6,7 @@ A powerful, Streamlit-based HR tool that enables intelligent resume search using
 
 ## 🚀 Features
 
-* ✅ Boolean Search: Supports `AND`, `OR`, `NOT`, and parentheses `( )`
+* ✅ Boolean Search: Supports `AND`, `OR`, and parentheses `( )`
 * ✅ Phrase Matching: Detects multi-word skills like `"Machine Learning"` or `HuggingFace`
 * ✅ Intelligent Normalization:
 
@@ -30,7 +26,6 @@ A powerful, Streamlit-based HR tool that enables intelligent resume search using
 | `Python`                                      | Matches any resume containing "Python" |
 | `Python AND Django`                           | Both terms must be present             |
 | `Java OR Python`                              | Either term can be present             |
-| `Python NOT Django`                           | Python resumes that exclude Django     |
 | `(Java OR Python) AND (AWS OR Azure)`         | Grouped expressions                    |
 | `"Machine Learning"`                          | Exact phrase match                     |
 | `MachineLearning` or `(Machine AND Learning)` | Same as above                          |
